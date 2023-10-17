@@ -1,0 +1,172 @@
+.bm-2 {
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #1d1d1d;
+  border: medium none currentColor;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+body {
+  background-color: #00449e;
+  background-image: url("../images/bkg.png");
+  min-height: 100%;
+}
+
+#query-form,
+.forecast-block,
+.results-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.tooltip.top > .tooltip-arrow,
+.keyword-magnet,
+.tooltip > .tooltip-inner {
+  border-style: solid;
+  border-image: none;
+}
+
+.keyword-magnet {
+  border: 1.7px solid #ddd;
+  border-radius: 0.0625in;
+  color: #ddd;
+  font-size: 0.85em;
+  line-height: 2.2em;
+  margin: 0.1em;
+  padding: 0.15em 0.5em;
+  text-shadow: none;
+  white-space: pre;
+  text-align: center;
+}
+
+.tooltip.top > .tooltip-arrow {
+  border-top-color: #ff0;
+}
+
+.tooltip > .tooltip-inner {
+  border-color: white;
+  padding: 5.25pt;
+  font-size: 0.125in;
+  color: #fff;
+}
+
+p {
+  color: #becbff;
+  font-size: 1.2rem;
+  text-shadow: 0.0625pc 0.0625pc 5px black;
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+}
+
+.section-heading {
+  font-size: 3.3em;
+  margin: 3rem 0 1rem;
+}
+
+.section-subheading,
+.subsection-heading {
+  color: white;
+  font-size: 2em;
+  margin: 2rem 0;
+  text-shadow: 3px 0.03125in 0.625pc black;
+  text-align: center;
+}
+
+.section-divider img,
+.subsection-divider {
+  width: 90%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.section-divider {
+  opacity: 0.75;
+}
+
+.small-animation {
+  width: 6rem;
+}
+
+.subsection-divider {
+  background-image: linear-gradient(
+    to right,
+    rgba(136, 159, 179, 0),
+    rgba(136, 159, 179, 0.75),
+    rgba(136, 159, 179, 0)
+  );
+  border: 0 none currentColor;
+  margin: 0 10%;
+  width: 80%;
+  height: 1px;
+}
+
+#query-form {
+  max-width: 85%;
+}
+
+.weather-date,
+h1 {
+  color: #ff0;
+  font-size: 1.2rem;
+}
+
+.weather-date,
+.weather-icon-div,
+.weather-description,
+.weather-temperatures {
+  margin: auto;
+  max-width: 90%;
+}
+
+.weather-day-div {
+  margin: 1rem 0 2rem;
+}
+
+.weather-icon-div {
+  font-size: 3rem;
+  color: white;
+  min-width: 8rem;
+}
+
+.weather-description {
+  font-size: 0.8rem;
+  margin: 0.2rem 0 0.6rem;
+  min-height: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.weather-temperatures {
+  color: #ffe8c6;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #0ef;
+}
+
+.copyright-text {
+  color: #becbff;
+}
+
+footer {
+  text-shadow: 2px 1.5pt 7.5pt black;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
